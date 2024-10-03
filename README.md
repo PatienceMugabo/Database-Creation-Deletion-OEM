@@ -1,5 +1,5 @@
 # Database-Creation-Deletion-OEM
-### Create a New Pluggable Database (PDB) 'plsql_class2024db' AND 'he_to_delete_pdb'
+### Create a New Pluggable Database (PDB) 'plsql_class2024db' AND 'pa_to_delete_pdb'
 
 ```sql
  CREATE PLUGGABLE DATABASE plsql_class2024db
@@ -26,7 +26,7 @@ ALTER PLUGGABLE DATABASE FA_TO_DELETE_PDB UNPLUG INTO 'C:\USERS\ORADATA\ORCL PDB
 DROP PLUGGABLE DATABASE FA_TO_DELETE_PDB INCLUDING DATAFILES;
 ```
 ![SQL ASSIGNMENT 3](https://github.com/user-attachments/assets/7c34683a-603a-4082-89d9-2fcb94bd1c22)
-
+## CREATE USER
 ```sql
 CREATE USER pacience IDENTIFIED BY 1234;
 GRANT ALL PRIVILEGES TO pacience;
